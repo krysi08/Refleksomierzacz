@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Refleksomierz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<h1>Refleksomierz</h1>
+
+<div id="gameArea"></div>
+
+<div class="buttons">
+  <button id="startBtn">Start</button>
+  <button id="stopBtn" disabled>Stop</button>
+</div>
+<p>Klikniecia przed zmiana koloru: <span id="falseClicks">0</span></p>
+<div id="stats" class="hidden">
+  <h2>Statystyki</h2>
+  <p>Najkrótszy czas reakcji: <span id="minTime">-</span> ms</p>
+  <p>Najdłuższy czas reakcji: <span id="maxTime">-</span> ms</p>
+  <p>Średni czas reakcji: <span id="avgTime">-</span> ms</p>
+</div>
+<script src="app.js" ></script>
+</body>
+</html>
+
